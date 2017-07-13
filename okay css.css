@@ -1,0 +1,41 @@
+body{
+	background-image:url("http://www.newsgoals.com/wp-content/uploads/2016/09/lg-v20-wallpaper-010.jpg");
+	font-type:sansserif,serif;
+}
+
+#stuff1{ 
+	color:rgb(255, 152, 0);
+	float: left;
+	/* clear: left; */
+}
+#stuff2{ 
+	float:left;
+	color:rgb(255, 152, 0);
+}
+#blarg{
+	float: right; 
+	border: 5px rgba (0,0,0,.5)
+}
+#stuff3{ 
+	float:fixed;
+	top: 223;
+	left: 15;	
+	color:rgb(255, 152, 0);
+}
+#blarg2{
+	float: fixed; 
+	top: 500;
+	right: 20;
+	
+}
+div.blank {
+	overflow:scroll;
+	color:rgb(255, 152, 0);
+}
+class.wut{
+	height: 2%;
+	width: 2%;
+}
+#blarg3{
+	float: bottom; 
+}

@@ -1,0 +1,14 @@
+header d
+another header d
+1 paragraph d
+ordered or unordered list d
+3 images 1 is a link with alt tag 1 made in gimp d
+https://www.w3schools.com to get every thing
+2 links 1 goes to not your website d
+background d
+css
+1 custom text color (rgb) d
+header color with paragraph color d
+1 use of styled stuffd
+custom font d
+1 div and 1 span not needed to be used, span covers 2 things d
