@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Madlib</title>
+		<script type="text/javascript">
+		function madLib(a,b,c) {
+			var node = document.getElementById('page');
+			while (node.firstChild)
+				node.removeChild(node.firstChild);
+			node.appendChild(document.createTextNode("Once upon a time, in a "+a+" far, far away. There was a "+ b+" named "+c));
+		}
+		</script>
+	</head>
+	<body>
+		<div id="page">
+			<p id='story'></p>
+				Place: <input type="text" id="place" value="" ><br /><br />
+				Job: <input type="text"  id="job" > <br /><br />
+				Name: <input type="text"  id="name" > <br /><br />
+		   <input type="button" value="Mad Lib!" onclick="madLib(						document.getElementById('place').value,								document.getElementById('job').value,
+    			document.getElementById('name').value		)"; />
+	</div>
+	</body>
+</html>
+

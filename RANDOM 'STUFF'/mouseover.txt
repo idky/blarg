@@ -1,0 +1,17 @@
+<DOCTYPE HTML>
+<html>
+		<head>
+			<script type=text="text/javascript">
+				function mouseOver(id,file) {
+					document.getElementbyid(id).src=file;
+					}
+				function mouseOut(id,file) {
+					document.getElementbyid(id).src=file;
+					}
+			</script>
+		</head>
+	<body>
+		<img src="name"
+		id= id
+		<any atribute> onmouseOver=mouseOver(id,'name');"
+	</body>
