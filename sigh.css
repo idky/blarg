@@ -25,3 +25,6 @@
 head{
 	color:white;
 }
+div.hide{
+	color: rba (255,255,255,.5);
+}
